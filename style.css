@@ -5,14 +5,45 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.959);
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
 }
+
+/*HEADER*/
+
+.header{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+/*MAIN*/
+
 .container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
+    margin: 1%;
+    padding: 1%;
 }
+.container__proyects{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.container__proyects>div{
+    width: 80%;
+    padding: 20%;
+    border: 2px solid whitesmoke;
+}
+
+
 footer{
     background-color: darkgray;
 }
